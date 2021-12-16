@@ -6,7 +6,7 @@
       <!-- Other routes -->
       <router-view />
 
-      <!-- <Footer /> -->
+      <Footer />
     </v-main>
   </v-app>
 </template> 
@@ -14,14 +14,14 @@
 <script lang="js">
 // import Vue from "vue";
 import Layout from "@/components/Layout.vue";
-// import Footer from "@/components/Footer/Main.vue";
+import Footer from "@/components/Footer/Main.vue";
 
 export default {
   name: "App",
 
   components: {
     Layout,
-    // Footer,
+    Footer,
   },
   data: () => ({
     //
